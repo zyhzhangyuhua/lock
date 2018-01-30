@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+      body{
+        background-color: #EFEFEF;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root">
+      <%= yield %>
+
+      <!-- 路由出口 -->
+      <!-- 路由匹配到的组件将渲染在这里 -->
+      <router-view></router-view>
+  </div>
+  </body>
+</html>
